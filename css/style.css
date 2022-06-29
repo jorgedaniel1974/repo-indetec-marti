@@ -1,0 +1,246 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+/*selectores de etiqueta*/
+*{
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	margin:0 ;
+	padding:0 ;
+}
+html{
+	font-size: 62.5%;
+}
+*{
+	background-color:black;
+}
+	h1{
+		color: orangered;
+		font-size: 2.5rem;	
+}
+	h2{
+		color: orangered;
+		font-size: 2.5rem;
+		text-align: center;
+		position: relative;
+		top:30px;
+}
+	h3{
+	color: orangered;
+		font-size: 2.5rem;
+		position: relative;
+		text-align: center;
+		top:30px;
+	}
+body{
+}
+		section article p{
+		color:gainsboro;
+		font-family: 'Kdam Thmor Pro', sans-serif;
+		font-size:1.8rem ;
+		line-height: 2rem;
+		text-align: center;
+		position: relative;
+		top: 80px;
+}
+	nav ul a{
+			list-style: none;
+			text-decoration: none;
+			color:gainsboro;
+			font-family: 'Kdam Thmor Pro', sans-serif;
+			font-size:1.8em ;
+			line-height: 2rem;
+		}
+		nav ul{
+			display:inline-block;
+		}
+		nav ul li{
+			list-style: none;
+			display: inline-block;	
+		}
+		ul li{
+			position:relative;
+			width:130px;
+			padding: auto;
+			top: 10px;
+			left:700px;
+		}
+		main{
+			display: block;
+			position: relative;
+			top:120px;
+			font-family:'Kdam Thmor Pro', sans-serif ;
+	}
+.interlineado{
+	line-height: 2.5;
+}
+.titulos{
+	margin: 20px;
+	padding: auto;
+}
+.prologo{
+	position: relative;
+	top: 60px;
+	line-height: 2;
+}
+.fondo_index--fluid{
+	width:100%;
+	position: relative;
+	top:100px;
+	justify-content: center;
+	align-items: center;	
+		}
+.logo-visible{
+	position:fixed;
+	top: 20px;
+	left: 50px;
+}	
+.banner-service{
+	position: relative;
+	top:215px;
+	left:80px; 
+}
+.servicios{
+	position: relative;
+	top: 50px;
+	left: 400px;}
+
+.text-alert{
+	color: gainsbor;
+		}
+.tex-center{
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+.parrafos-flex{
+	display: flex;
+	flex-direction: column;
+}
+header {
+	background-color:black;
+}
+.nos{
+	position: relative;
+	top: 70px;
+	align-items: center;
+}
+.barra{
+	position: relative;
+	top:80px;
+	right: auto;
+}
+.productos{
+	position: relative;
+	top:130px;
+	right: auto;
+}
+div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	height: auto;
+	margin:auto;
+	padding:auto;
+}
+.main-contac{
+	background-color:#E0E0E0;
+	border: none;
+	font-family:'Kdam Thmor Pro', sans-serif;
+	font-size:1.8rem;
+	border-style: solid;
+	border-color:orangered;
+}
+.datos{
+	position: relative;
+	top: 40px;
+	font-family:'Kdam Thmor Pro', sans-serif ;
+	font-size:1.8rem ;
+	border-style: solid;
+	border-color: orangered;
+}
+.comentarios{
+	position: relative;
+	top: 60px;
+	font-family:'Kdam Thmor Pro', sans-serif ;
+	font-size:1.8rem ;
+}
+.direccion{
+	position: relative;
+	top: 90px;
+	left:auto;
+	color:orangered;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	font-size:2rem;
+	text-align: center;
+}
+.mapa{
+	position: relative;
+	top: 130px;
+	left:25px;
+}
+footer{
+	color: gainsboro;
+	font-family: 'Kdam Thmor Pro', sans-serif;
+	font-size:2em ;
+	line-height: 2.3rem;
+	text-align: CENTER;
+	position: relative;
+	top: 350px; 
+}
+.base_botonera--sm{
+	width: 20%;
+	height: auto;
+	position: relative;
+	left: 540px;
+}
+.base_icono--sm{
+	width: 20%;
+	height: auto;
+	margin: auto;
+}
+.base_icono--md{
+	width:30% ;
+	height:auto;
+	margin:auto; 
+}
+.grid{
+	width: 90%;
+	display: grid;
+}
+.grid-template-columns-row{
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows:repeat(3, 1fr);
+	gap: 5px 30px;
+}
+.but_grad{
+	background: linear-gradient(to left,black, gray);
+}
+.scale:hover{
+	transform:scale(1.6);
+}
+@keyframes animateDiv{
+	0%{width: 100px}
+	15%{width: 125px;}
+	25%{width: 150px}
+	35%{width: 175px;}
+	50%{width: 200px}
+	65%{width: 225px;}
+	75%{width: 250px}
+	85%{width: 275px;}
+	100%{width: 350px}
+}
+.animate{
+	animation-name: animateDiv;
+	animation-timing-function:ease-in-out;
+	animation-duration: 1s;
+}
+@keyframes alfa{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+strong{
+animation-name: alfa;
+animation-duration: 2s;	
+animation-timing-function: ease-in-out;
+}
